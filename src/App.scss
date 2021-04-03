@@ -1,0 +1,26 @@
+:root {
+  --gradient: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
+}
+
+.container {
+  display: flex;
+  align-items: stretch;
+  color: #fff;
+  border-radius: 25px;
+  background-color: #20262f;
+}
+
+@media (max-width: 700px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+  }
+}
+
